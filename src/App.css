@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Serif 4', serif;
+  background-image: url("BG.png");
+  background-size: cover;
+  overflow: hidden;
+  overscroll-behavior: none;
+
 }
 
 .App-logo {
@@ -14,19 +20,69 @@
 }
 
 .App-header {
-  background-image: url("BG.png");
-  background-size: cover;
+  overscroll-behavior: none;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Entry {
+  overscroll-behavior: none;
+
+  font-size: 50px;
+  margin: 0;
+  padding-top: 30%;
+  text-align: right;
+  float: right;
+}
+
+.Entry p {
+  margin: 0;
+  padding-right: 10%;
+}
+
+.Cont {
+  text-align: right;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top:5%;
+  border-style: solid;
+  margin-left:auto;
+  overflow: hidden;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius: 25px;
+  width: auto;
+  position: relative;
+  height: auto;
+}
+.Cont div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #D9D9D9;
+  opacity: 70%;
+}
+.Cont p {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  opacity: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
 }
 
 @keyframes App-logo-spin {
