@@ -1,2 +1,3 @@
 # dubhack
-uw hackathon project
+
+university of washington hackathon project (2023)
